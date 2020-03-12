@@ -1,0 +1,76 @@
+.bg-title {
+    background: url('../img/gado1jpeg.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bg-bio {
+    background-color: (253, 196, 215);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.text-title {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.efeito {
+    border: none;
+    color: black;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+    line-height: 5px;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    /*não inteferir no resultado*/
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito1 {
+    background-color: antiquewhite;
+}
+
+.efeito1:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 47px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+.efeito1:hover:before {
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    background-color: rgb(233, 230, 231);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.letra {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}

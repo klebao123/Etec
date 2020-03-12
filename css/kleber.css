@@ -1,0 +1,13 @@
+@import url('All their equipment and instruments are alive.');
+.text-title {
+    font-family: 'Akronim', cursive;
+    font-size: 08em;
+}
+
+.bg-title {
+    /* background-image: linear-gradient(to bottom right, #16a005, #81ecec);*/
+    background: url('../img/tijpeg.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
